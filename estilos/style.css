@@ -1,0 +1,201 @@
+body {
+    background-color: rgb(231, 186, 186);
+}
+
+
+
+
+.logoSansa {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    top: 10px;
+    left: 10px;
+    padding: 0px 0px 0px 0px;
+    border: 5px solid rgb(139, 105, 146);
+    border-radius: 5px;
+    margin: 10px;
+}
+
+li {
+    padding: 10px 10px 10px 10px;
+    margin-left: 130px;
+    display: inline-block;
+}
+
+.frase {
+
+    padding: 10px 10px 10px 10px;
+    border: 0px;
+    margin-left: 230px;
+    margin-right: 675px;
+
+
+}
+
+section {
+    padding: 10px 10px 10px 10px;
+    border: 0px;
+    margin-top: 130px;
+
+
+
+}
+
+.musculosaHombrera {
+    position: relative;
+    top: 0px;
+    left: 10px;
+    right: 10px;
+    bottom: 10px;
+}
+
+.remeraKaty {
+    position: relative;
+    top: 0px;
+    left: 10px;
+    right: 10px;
+    bottom: 10px;
+}
+
+.shortMarruecos {
+    position: relative;
+    top: 30px;
+    left: 10px;
+    right: 10px;
+    bottom: 10px;
+}
+
+.topIbis {
+    position: relative;
+    top: 30px;
+    left: 10px;
+    right: 10px;
+    bottom: 10px;
+}
+
+.productoVideo {
+    padding: 10px 10px 10px 10px;
+    border: 0px;
+    margin-left: 200px;
+    margin-right: 100px;
+
+
+}
+
+.video {
+    padding: 10px 10px 10px 10px;
+    border: 5px;
+    margin-left: 350px;
+    margin-right: 100px;
+
+}
+
+h2 {
+    padding: 10px, 10px, 10px, 10px;
+    margin-left: 50px;
+    border: 0px, 0px, 0px, 0px;
+
+}
+
+.vestidoLali {
+   
+    position: relative;
+    top: 0px;
+    left: 10px;
+    right: 10px;
+    bottom: 10px;
+
+}
+
+.vestidoMandy {
+    
+    position: relative;
+    top: 0px;
+    left: 10px;
+    right: 10px;
+    bottom: 10px;
+
+}
+
+.vestidoSara {
+    position: relative;
+    top: 0px;
+    left: 10px;
+    right: 10px;
+    bottom: 10px;
+
+}
+.musHombreras {
+    position: relative;
+    top: 0px;
+    left: 10px;
+    right: 10px;
+    bottom: 10px;
+
+}
+.remBatik {
+    position: relative;
+    top: 0px;
+    left: 10px;
+    right: 10px;
+    bottom: 10px;
+
+}
+.remkaty {
+    position: relative;
+    top: 0px;
+    left: 10px;
+    right: 10px;
+    bottom: 10px;
+
+}
+.tIbis {
+    position: relative;
+    top: 0px;
+    left: 10px;
+    right: 10px;
+    bottom: 10px;
+
+}
+
+.sMarruecos {
+    position: relative;
+    top: 0px;
+    left: 10px;
+    right: 10px;
+    bottom: 10px;
+
+}
+.shortRustico {
+    position: relative;
+    top: 0px;
+    left: 10px;
+    right: 10px;
+    bottom: 10px;
+
+}
+.shortTokio {
+    position: relative;
+    top: 0px;
+    left: 10px;
+    right: 10px;
+    bottom: 10px;
+
+}
+
+.insta {
+    background-color: turquoise;
+    border-color: tomato;
+    border-radius: 5px;
+    margin-left: 50px;
+
+
+}
+
+.wp {
+    background-color: turquoise;
+    border-color: tomato;
+    border-radius: 5px;
+}
+
