@@ -99,7 +99,7 @@ h2 {
 }
 
 .vestidoLali {
-   
+
     position: relative;
     top: 0px;
     left: 10px;
@@ -109,7 +109,7 @@ h2 {
 }
 
 .vestidoMandy {
-    
+
     position: relative;
     top: 0px;
     left: 10px;
@@ -126,6 +126,7 @@ h2 {
     bottom: 10px;
 
 }
+
 .musHombreras {
     position: relative;
     top: 0px;
@@ -134,6 +135,7 @@ h2 {
     bottom: 10px;
 
 }
+
 .remBatik {
     position: relative;
     top: 0px;
@@ -142,6 +144,7 @@ h2 {
     bottom: 10px;
 
 }
+
 .remkaty {
     position: relative;
     top: 0px;
@@ -150,6 +153,7 @@ h2 {
     bottom: 10px;
 
 }
+
 .tIbis {
     position: relative;
     top: 0px;
@@ -167,6 +171,7 @@ h2 {
     bottom: 10px;
 
 }
+
 .shortRustico {
     position: relative;
     top: 0px;
@@ -175,6 +180,7 @@ h2 {
     bottom: 10px;
 
 }
+
 .shortTokio {
     position: relative;
     top: 0px;
@@ -201,11 +207,28 @@ h2 {
 
 .lomasVendido {
     display: grid;
-    grid-template-columns: 2fr 2fr; 
+    grid-template-columns: 2fr 2fr;
     grid-template-rows: 2fr 2fr;
-    grid-template-areas: 
-    "musculosaHombrera remeraKaty"
-    "shortMarruecos topIbis"
+    grid-template-areas:
+        "musculosaHombrera remeraKaty"
+        "shortMarruecos topIbis"
     ;
+}
+
+
+.musculosaHombrera {
+    grid-area: musculosaHombrera;
+}
+
+.remeraKaty {
+    grid-area: remeraKaty;
+}
+
+.shortMarruecos {
+grid-area: shortMarruecos;
+}
+
+.topIbis {
+    grid-area: topIbis;
 }
 
