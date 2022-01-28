@@ -34,47 +34,7 @@ li {
 
 }
 
-/*section {
-    padding: 10px 10px 10px 10px;
-    border: 0px;
-    margin-top: 100px;
 
-
-
-}
-
-.musculosaHombrera {
-    position: relative;
-    top: 0px;
-    left: 10px;
-    right: 10px;
-    bottom: 10px;
-}
-
-.remeraKaty {
-    position: relative;
-    top: 0px;
-    left: 10px;
-    right: 10px;
-    bottom: 10px;
-}
-
-.shortMarruecos {
-    position: relative;
-    top: 30px;
-    left: 10px;
-    right: 10px;
-    bottom: 10px;
-}
-
-.topIbis {
-    position: relative;
-    top: 30px;
-    left: 10px;
-    right: 10px;
-    bottom: 10px;
-}
-*/
 .productoVideo {
     padding: 10px 10px 10px 10px;
     border: 0px;
@@ -100,72 +60,13 @@ h2 {
 }
 
 
+.cabeza {
+    color:rgb(231, 186, 186);
+    background-color: rgb(231, 186, 186);
+    padding: 30px;
+    display:flex
 
 
-
-
-
-
-.musHombreras {
-    position: relative;
-    top: 0px;
-    left: 10px;
-    right: 10px;
-    bottom: 10px;
-
-}
-
-.remBatik {
-    position: relative;
-    top: 0px;
-    left: 10px;
-    right: 10px;
-    bottom: 10px;
-
-}
-
-.remkaty {
-    position: relative;
-    top: 0px;
-    left: 10px;
-    right: 10px;
-    bottom: 10px;
-
-}
-
-.tIbis {
-    position: relative;
-    top: 0px;
-    left: 10px;
-    right: 10px;
-    bottom: 10px;
-
-}
-
-.sMarruecos {
-    position: relative;
-    top: 0px;
-    left: 10px;
-    right: 10px;
-    bottom: 10px;
-
-}
-
-.shortRustico {
-    position: relative;
-    top: 0px;
-    left: 10px;
-    right: 10px;
-    bottom: 10px;
-
-}
-
-.shortTokio {
-    position: relative;
-    top: 0px;
-    left: 10px;
-    right: 10px;
-    bottom: 10px;
 
 }
 
@@ -184,13 +85,18 @@ h2 {
     border-radius: 5px;
 }
 
+
+
+
+
+
 .lomasVendido {
     display: grid;
-    grid-template-columns: 2fr 2fr;
-    grid-template-rows: 2fr 2fr;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
     grid-template-areas:
-        "musculosaHombrera remeraKaty"
-        "shortMarruecos topIbis"
+        "topIbis remeraKaty"
+        " musculosaHombrera shortMarruecos"
     ;
 }
 
@@ -211,14 +117,16 @@ grid-area: shortMarruecos;
     grid-area: topIbis;
 }
 
-.vestido{
+.galeriaProductos{
     display: grid;
-grid-template-columns: 2fr ;
-grid-template-rows: 1fr 1fr 1fr;
+grid-template-columns: 2fr 2fr;
+grid-template-rows: 1fr 1fr;
 grid-template-areas:
-    "vestido2"
-    "vestido3"
+    "vestido2"  
     "vestido1"
+    "vestido3"
+    
+    
 ;
 }
 
@@ -235,3 +143,14 @@ grid-area: vestido2;
 grid-area: vestido3;
 }
 
+.listaSecciones {
+    display: flex;
+flex-direction: row;
+
+}
+
+.cabeza{
+    display: grid;
+grid-auto-rows: auto;
+
+}
