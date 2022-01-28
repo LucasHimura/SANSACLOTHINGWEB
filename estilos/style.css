@@ -155,4 +155,17 @@ grid-auto-rows: auto;
 
 }
 
+.frase {
+    display: auto;
+    margin: 50px 5.5rem;
+  
+    animation: bounce; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 5s; /* don't forget to set a duration! */
+  }
 
+  . {
+    display: auto;
+    margin: 50px 5.5rem;
+  
+    animation: bounce; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 5s; /* don't forget to set a duration! */
