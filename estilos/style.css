@@ -17,6 +17,7 @@ body {
     margin: 10px;
 }
 
+
 li {
     padding: 10px 10px 10px 10px;
     margin-left: 130px;
@@ -98,34 +99,12 @@ h2 {
 
 }
 
-.vestidoLali {
 
-    position: relative;
-    top: 0px;
-    left: 10px;
-    right: 10px;
-    bottom: 10px;
 
-}
 
-.vestidoMandy {
 
-    position: relative;
-    top: 0px;
-    left: 10px;
-    right: 10px;
-    bottom: 10px;
 
-}
 
-.vestidoSara {
-    position: relative;
-    top: 0px;
-    left: 10px;
-    right: 10px;
-    bottom: 10px;
-
-}
 
 .musHombreras {
     position: relative;
@@ -230,5 +209,29 @@ grid-area: shortMarruecos;
 
 .topIbis {
     grid-area: topIbis;
+}
+
+.vestido{
+    display: grid;
+grid-template-columns: 2fr ;
+grid-template-rows: 1fr 1fr 1fr;
+grid-template-areas:
+    "vestido2"
+    "vestido3"
+    "vestido1"
+;
+}
+
+
+.vestidoLali {
+grid-area: vestido1;
+}
+
+.vestidoMandy {
+grid-area: vestido2;
+}
+
+.vestidoSara {
+grid-area: vestido3;
 }
 
