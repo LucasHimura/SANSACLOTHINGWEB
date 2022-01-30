@@ -1,6 +1,8 @@
+@media (min-width:680px){
 body {
     background-color: rgb(231, 186, 186);
 }
+
 
 
 
@@ -16,8 +18,8 @@ body {
     border-radius: 5px;
     margin: 10px;
 }
-
-
+}
+@media (min-width:680px){
 li {
     padding: 10px 10px 10px 10px;
     margin-left: 130px;
@@ -34,7 +36,8 @@ li {
 
 }
 
-
+}
+@media (min-width:680px){
 .productoVideo {
     padding: 10px 10px 10px 10px;
     border: 0px;
@@ -43,14 +46,22 @@ li {
 
 
 }
-
-.video {
-    padding: 10px 10px 10px 10px;
-    border: 5px;
-    margin-left: 350px;
-    margin-right: 100px;
-
 }
+@media (min-width:680px){
+    .video {
+        padding: 10px 10px 10px 10px;
+        border: 5px;
+        margin-left: 350px;
+        margin-right: 100px;
+       
+        transition: all 2s;
+    
+    
+    }
+    
+    .video:hover{
+        transform: scale(2) translatex(150px); 
+    }
 
 h2 {
     padding: 10px, 10px, 10px, 10px;
@@ -58,8 +69,8 @@ h2 {
     border: 0px, 0px, 0px, 0px;
 
 }
-
-
+}
+@media (min-width:680px){
 .cabeza {
     color:rgb(231, 186, 186);
     background-color: rgb(231, 186, 186);
@@ -84,12 +95,12 @@ h2 {
     border-color: tomato;
     border-radius: 5px;
 }
+}
 
 
 
 
-
-
+@media (min-width:680px){
 .lomasVendido {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -103,20 +114,42 @@ h2 {
 
 .musculosaHombrera {
     grid-area: musculosaHombrera;
+    transition: all 2s;
+    
 }
+.musculosaHombrera:hover{
+    transform: scale(2) translatex(150px); 
 
+}
 .remeraKaty {
     grid-area: remeraKaty;
+    transition: all 2s;
+}
+
+.remeraKaty:hover{
+    transform: scale(2) translatex(-100px);
 }
 
 .shortMarruecos {
 grid-area: shortMarruecos;
+transition: all 2s;
+}
+
+.shortMarruecos:hover{
+    transform: scale(2) translatex(150px);
 }
 
 .topIbis {
     grid-area: topIbis;
+    transition: all 2s;
 }
 
+.topIbis:hover{
+    transform: scale(2) translatex(-100px);
+}
+}
+
+@media (min-width:680px){
 .galeriaProductos{
     display: grid;
 grid-template-columns: 2fr 2fr;
@@ -154,7 +187,7 @@ flex-direction: row;
 grid-auto-rows: auto;
 
 }
-
+}
 .frase {
     display: auto;
     margin: 50px 5.5rem;
@@ -167,5 +200,7 @@ grid-auto-rows: auto;
     display: auto;
     margin: 50px 5.5rem;
   
-    animation: bounce; /* referring directly to the animation's @keyframe declaration */
-    animation-duration: 5s; /* don't forget to set a duration! */
+    animation: bounce; 
+    animation-duration:5s;
+  }
+
