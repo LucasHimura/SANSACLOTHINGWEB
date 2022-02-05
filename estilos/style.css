@@ -1,156 +1,207 @@
-body {
-    background-color: rgb(231, 186, 186);
-}
-
-
-
-
-.logoSansa {
-    position: absolute;
-    width: 150px;
-    height: 150px;
-    top: 10px;
-    left: 10px;
-    padding: 0px 0px 0px 0px;
-    border: 5px solid rgb(139, 105, 146);
-    border-radius: 5px;
-    margin: 10px;
-}
-
-
-li {
-    padding: 10px 10px 10px 10px;
-    margin-left: 130px;
-    display: inline-block;
-}
-
-.frase {
-
-    padding: 10px 10px 100px 100px;
-    border: 0px;
-    margin-left: 230px;
-    margin-right: 200px;
-
-
-}
-
-
-.productoVideo {
-    padding: 10px 10px 10px 10px;
-    border: 0px;
-    margin-left: 200px;
-    margin-right: 100px;
-
-
-}
-
-.video {
-    padding: 10px 10px 10px 10px;
-    border: 5px;
-    margin-left: 350px;
-    margin-right: 100px;
-
-}
-
-h2 {
-    padding: 10px, 10px, 10px, 10px;
-    margin-left: 50px;
-    border: 0px, 0px, 0px, 0px;
-
-}
-
-
-.cabeza {
-    color:rgb(231, 186, 186);
-    background-color: rgb(231, 186, 186);
-    padding: 30px;
-    display:flex
-
-
-
-}
-
-.insta {
-    background-color: turquoise;
-    border-color: tomato;
-    border-radius: 5px;
-    margin-left: 50px;
-
-
-}
-
-.wp {
-    background-color: turquoise;
-    border-color: tomato;
-    border-radius: 5px;
-}
-
-
-
-
-
-
-.lomasVendido {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+@media (min-width:680px){
+    body {
+        background-color: rgb(231, 186, 186);
+    }
+    
+    
+    
+    
+    
+    .logoSansa {
+        position: absolute;
+        width: 150px;
+        height: 150px;
+        top: 10px;
+        left: 10px;
+        padding: 0px 0px 0px 0px;
+        border: 5px solid rgb(139, 105, 146);
+        border-radius: 5px;
+        margin: 10px;
+    }
+    }
+    @media (min-width:680px){
+    li {
+        padding: 10px 10px 10px 10px;
+        margin-left: 130px;
+        display: inline-block;
+    }
+    
+    .frase {
+    
+        padding: 10px 10px 100px 100px;
+        border: 0px;
+        margin-left: 230px;
+        margin-right: 200px;
+    
+    
+    }
+    
+    }
+    @media (min-width:680px){
+    .productoVideo {
+        padding: 10px 10px 10px 10px;
+        border: 0px;
+        margin-left: 200px;
+        margin-right: 100px;
+    
+    
+    }
+    }
+    @media (min-width:680px){
+        .video {
+            padding: 10px 10px 10px 10px;
+            border: 5px;
+            margin-left: 350px;
+            margin-right: 100px;
+           
+            transition: all 2s;
+        
+        
+        }
+        
+        .video:hover{
+            transform: scale(2) translatex(150px); 
+        }
+    
+    h2 {
+        padding: 10px, 10px, 10px, 10px;
+        margin-left: 50px;
+        border: 0px, 0px, 0px, 0px;
+    
+    }
+    }
+    @media (min-width:680px){
+    .cabeza {
+        color:rgb(231, 186, 186);
+        background-color: rgb(231, 186, 186);
+        padding: 30px;
+        display:flex
+    
+    
+    
+    }
+    
+    .insta {
+        background-color: turquoise;
+        border-color: tomato;
+        border-radius: 5px;
+        margin-left: 50px;
+    
+    
+    }
+    
+    .wp {
+        background-color: turquoise;
+        border-color: tomato;
+        border-radius: 5px;
+    }
+    }
+    
+    
+    
+    
+    @media (min-width:680px){
+    .lomasVendido {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        grid-template-areas:
+            "topIbis remeraKaty"
+            " musculosaHombrera shortMarruecos"
+        ;
+    }
+    
+    
+    .musculosaHombrera {
+        grid-area: musculosaHombrera;
+        transition: all 2s;
+        
+    }
+    .musculosaHombrera:hover{
+        transform: scale(2) translatex(150px); 
+    
+    }
+    .remeraKaty {
+        grid-area: remeraKaty;
+        transition: all 2s;
+    }
+    
+    .remeraKaty:hover{
+        transform: scale(2) translatex(-100px);
+    }
+    
+    .shortMarruecos {
+    grid-area: shortMarruecos;
+    transition: all 2s;
+    }
+    
+    .shortMarruecos:hover{
+        transform: scale(2) translatex(150px);
+    }
+    
+    .topIbis {
+        grid-area: topIbis;
+        transition: all 2s;
+    }
+    
+    .topIbis:hover{
+        transform: scale(2) translatex(-100px);
+    }
+    }
+    
+    @media (min-width:680px){
+    .galeriaProductos{
+        display: grid;
+    grid-template-columns: 2fr 2fr;
     grid-template-rows: 1fr 1fr;
     grid-template-areas:
-        "topIbis remeraKaty"
-        " musculosaHombrera shortMarruecos"
+        "vestido2"  
+        "vestido1"
+        "vestido3"
+        
+        
     ;
-}
-
-
-.musculosaHombrera {
-    grid-area: musculosaHombrera;
-}
-
-.remeraKaty {
-    grid-area: remeraKaty;
-}
-
-.shortMarruecos {
-grid-area: shortMarruecos;
-}
-
-.topIbis {
-    grid-area: topIbis;
-}
-
-.galeriaProductos{
-    display: grid;
-grid-template-columns: 2fr 2fr;
-grid-template-rows: 1fr 1fr;
-grid-template-areas:
-    "vestido2"  
-    "vestido1"
-    "vestido3"
+    }
     
     
-;
-}
-
-
-.vestidoLali {
-grid-area: vestido1;
-}
-
-.vestidoMandy {
-grid-area: vestido2;
-}
-
-.vestidoSara {
-grid-area: vestido3;
-}
-
-.listaSecciones {
-    display: flex;
-flex-direction: row;
-
-}
-
-.cabeza{
-    display: grid;
-grid-auto-rows: auto;
-
-}
+    .vestidoLali {
+    grid-area: vestido1;
+    }
+    
+    .vestidoMandy {
+    grid-area: vestido2;
+    }
+    
+    .vestidoSara {
+    grid-area: vestido3;
+    }
+    
+    .listaSecciones {
+        display: flex;
+    flex-direction: row;
+    
+    }
+    
+    .cabeza{
+        display: grid;
+    grid-auto-rows: auto;
+    
+    }
+    }
+    .frase {
+        display: auto;
+        margin: 50px 5.5rem;
+      
+        animation: bounce; /* referring directly to the animation's @keyframe declaration */
+        animation-duration: 5s; /* don't forget to set a duration! */
+      }
+    
+      .tituloFooter {
+        display: auto;
+        margin: 50px 5.5rem;
+      
+        animation: bounce; 
+        animation-duration:5s;
+      }
+    
+    
