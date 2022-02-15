@@ -93,13 +93,18 @@
 
 @media (min-width:680px) {
     .lomasVendido {
-        display: grid;
+        display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: center;
+        
+        /*display: grid;
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 1fr 1fr;
         grid-template-areas:
             "topIbis remeraKaty"
             " musculosaHombrera shortMarruecos"
-        ;
+        ;*/
     }
 
 
@@ -190,10 +195,35 @@
     animation-duration: 5s;
 }
 
-.tituloFooter {
-    display: auto;
-    margin: 50px 5.5rem;
 
+@media (min-width:700px) {
+    .pieSansa{
+        display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		background-color: black;
+        
+        
+
+    }
+
+
+.tituloFooter {
+    padding: 50px;
+    color: aliceblue;
+    display: auto;
+    align-self: flex-start;
     animation: bounce;
     animation-duration: 5s;
+}
+.maps{
+    align-self: flex-end;
+    margin-left: 600px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    
+
+
+
+}
 }
