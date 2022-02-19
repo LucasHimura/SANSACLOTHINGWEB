@@ -1,4 +1,4 @@
-@media (min-width:680px) {
+@media screen and (min-width:380px) {
     body {
         background-color: rgb(252, 252, 252);
     }
@@ -11,55 +11,31 @@
         padding: 0px 0px 0px 0px;
 
         margin: 0px;
-
     }
+
+    
 }
 
-/*@media (min-width:680px) {
-    li {
-        padding: 0px 0px 0px 0px;
-        margin-left: 130px;
-        display: inline-block;
-    }
-
-   /* .frase {
-
-        padding: 0px 0px 0px 0px;
-        border: 0px;
-        margin-left: 230px;
-        margin-right: 200px;
 
 
-    }
-
-}
-*/
-@media (min-width:680px) {
+@media screen and (min-width:380px) {
     .productoVideo {
         padding: 10px 10px 10px 10px;
         border: 0px;
-        margin-left: 200px;
+        margin-left: 530px;
         margin-right: 100px;
 
 
     }
-}
-
-@media (min-width:680px) {
-    .video {
+.video {
         padding: 10px 10px 10px 10px;
         border: 5px;
-        margin-left: 350px;
+        margin-left: 550px;
         margin-right: 100px;
 
-        transition: all 2s;
-
-
     }
 
-    .video:hover {
-        transform: scale(2) translatex(150px);
-    }
+
 
     h2 {
         padding: 10px, 10px, 10px, 10px;
@@ -69,161 +45,306 @@
     }
 }
 
-@media (min-width:680px) {
-    
+@media screen and (min-width:380px) {
+
+    .donde {
+
+        padding: auto;
+        margin-bottom: 100px;
+        margin-left: 85px;
+
+    }
 
     .insta {
-        background-color: turquoise;
-        border-color: tomato;
+        padding: auto;
+        margin-bottom: 100px;
+        margin-left: 85px;
+
+    }
+
+    .wapp {
+
+        padding: auto;
+        margin-bottom: 100px;
+        margin-left: 100px;
+    }
+
+
+
+    @media screen and (min-width:380px) {
+
+        
+        
+           
+        
+        .quienSos{
+          margin: 100px 50px 50px 300px;
+
+        }
+        .showRoom {
+            margin: 100px 50px 50px 300px;
+
+        }
+    }
+
+
+    @media screen and (min-width:380px) {
+        .lomasVendido {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: center;
+
+
+        }
+
+
+
+
+    }
+
+    @media screen and (min-width:380px) {
+        /*.productos {
+            display:grid;
+            grid-template-columns: 2fr 2fr;
+            grid-template-rows:1fr;
+            
+           
+
+
+        
+        }*/
+
+
+        .vestidoLali {
+            grid-area: vestido1;
+        }
+
+        .vestidoMandy {
+            grid-area: vestido2;
+        }
+
+        .vestidoSara {
+            grid-area: vestido3;
+        }
+
+        .listaSecciones {
+            display: flex;
+            flex-direction: row;
+
+        }
+
+        .cabeza {
+            display: grid;
+            grid-auto-rows: auto;
+
+        }
+
+        .musculosaHombrera {
+            grid-area: musculosaHombrera;
+            transition: all 2s;
+
+        }
+
+        .musculosaHombrera:hover {
+            transform: scale(2) translatex(150px);
+
+        }
+
+        .remeraKaty {
+            grid-area: remeraKaty;
+            transition: all 2s;
+        }
+
+        .remeraKaty:hover {
+            transform: scale(2) translatex(-100px);
+        }
+
+        .shortMarruecos {
+            grid-area: shortMarruecos;
+            transition: all 2s;
+        }
+
+        .shortMarruecos:hover {
+            transform: scale(2) translatex(150px);
+        }
+
+        .topIbis {
+             grid-area: topIbis;
+            transition: all 2s;
+        }
+
+        .topIbis:hover {
+            transform: scale(2) translatex(-100px);
+        }
+    }
+
+    .frase {
+        display: auto;
+        margin: 50px 5.5rem;
+
+        animation: bounce;
+        animation-duration: 5s;
+    }
+
+    @media screen and (min-width:380px) {
+        .pieSansa {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            background-color: black;
+            width: auto;
+            height: auto;
+
+
+        }
+
+
+        .tituloFooter {
+            padding: 50px;
+            color: aliceblue;
+            display: auto;
+            align-self: flex-start;
+            animation: bounce;
+            animation-duration: 5s;
+
+        }
+
+        .maps {
+            align-self: flex-end;
+            margin-left: 600px;
+            margin-bottom: 20px;
+            margin-top: 20px;
+        }
+
+        .listaFooter {
+            align-self: center;
+            margin-left: 100px;
+
+        }
+
+
+    }
+
+
+
+    .contact_form {
+        width: 460px;
+        height: auto;
+        margin: 80px auto;
+        border-radius: 10px;
+        padding-top: 30px;
+        padding-bottom: 20px;
+        background-color: #fbfbfb;
+        padding-left: 30px;
+    }
+
+
+    input {
+        background-color: #fbfbfb;
+        width: 408px;
+        height: 40px;
         border-radius: 5px;
-        margin-left: 50px;
-
-
+        border-style: solid;
+        border-width: 1px;
+        border-color: black;
+        margin-top: 10px;
+        padding-left: 10px;
+        margin-bottom: 20px;
     }
 
-    .wp {
-        background-color: turquoise;
-        border-color: tomato;
+
+    textarea {
+        background-color: #fbfbfb;
+        width: 405px;
+        height: 150px;
         border-radius: 5px;
-    }
-}
-
-
-
-
-@media (min-width:680px) {
-    .lomasVendido {
-        display: flex;
-		flex-direction: row;
-		flex-wrap: wrap;
-		justify-content: center;
-        
-        /*display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: 1fr 1fr;
-        grid-template-areas:
-            "topIbis remeraKaty"
-            " musculosaHombrera shortMarruecos"
-        ;*/
+        border-style: solid;
+        border-width: 1px;
+        border-color: black;
+        margin-top: 10px;
+        padding-left: 10px;
+        margin-bottom: 20px;
+        padding-top: 15px;
     }
 
 
-    .musculosaHombrera {
-        grid-area: musculosaHombrera;
-        transition: all 2s;
-
-    }
-
-    .musculosaHombrera:hover {
-        transform: scale(2) translatex(150px);
-
-    }
-
-    .remeraKaty {
-        grid-area: remeraKaty;
-        transition: all 2s;
-    }
-
-    .remeraKaty:hover {
-        transform: scale(2) translatex(-100px);
-    }
-
-    .shortMarruecos {
-        grid-area: shortMarruecos;
-        transition: all 2s;
-    }
-
-    .shortMarruecos:hover {
-        transform: scale(2) translatex(150px);
-    }
-
-    .topIbis {
-        grid-area: topIbis;
-        transition: all 2s;
-    }
-
-    .topIbis:hover {
-        transform: scale(2) translatex(-100px);
-    }
-}
-
-@media (min-width:680px) {
-    .galeriaProductos {
-        display: grid;
-        grid-template-columns: 2fr 2fr;
-        grid-template-rows: 1fr 1fr;
-        grid-template-areas:
-            "vestido2"
-            "vestido1"
-            "vestido3"
-
-
-        ;
+    label {
+        display: block;
+        float: center;
     }
 
 
-    .vestidoLali {
-        grid-area: vestido1;
-    }
-
-    .vestidoMandy {
-        grid-area: vestido2;
-    }
-
-    .vestidoSara {
-        grid-area: vestido3;
-    }
-
-    .listaSecciones {
-        display: flex;
-        flex-direction: row;
-
-    }
-
-    .cabeza {
-        display: grid;
-        grid-auto-rows: auto;
-
-    }
-}
-
-.frase {
-    display: auto;
-    margin: 50px 5.5rem;
-
-    animation: bounce;
-    animation-duration: 5s;
-}
-
-
-@media (min-width:700px) {
-    .pieSansa{
-        display: flex;
-		flex-direction: row;
-		flex-wrap: wrap;
-		background-color: black;
-        
-        
-
+    button {
+        height: 45px;
+        padding-left: 5px;
+        padding-right: 5px;
+        margin-bottom: 20px;
+        margin-top: 10px;
+        text-transform: uppercase;
+        background-color: black;
+        border-color: black;
+        border-style: solid;
+        border-radius: 10px;
+        width: 420px;
+        cursor: pointer;
     }
 
 
-.tituloFooter {
-    padding: 50px;
-    color: aliceblue;
-    display: auto;
-    align-self: flex-start;
-    animation: bounce;
-    animation-duration: 5s;
-}
-.maps{
-    align-self: flex-end;
-    margin-left: 600px;
-    margin-bottom: 20px;
-    margin-top: 20px;
-    
+    button p {
+        color: #fff;
+    }
 
 
+    span {
+        color: black;
+    }
 
-}
-}
+
+    .aviso {
+        font-size: 13px;
+        color: black;
+    }
+
+
+    h1 {
+        font-size: 39px;
+        text-align: letf;
+        padding-bottom: 20px;
+        color: black;
+    }
+
+
+    h3 {
+        font-size: 16px;
+        padding-bottom: 30px;
+        color: black;
+    }
+
+
+    p {
+        font-size: 14px;
+        color: #0e0e0e;
+    }
+
+
+    ::-webkit-input-placeholder {
+        color: #a8a8a8;
+    }
+
+
+    ::-webkit-textarea-placeholder {
+        color: #a8a8a8;
+    }
+
+
+    .formulario input:focus {
+        outline: 0;
+        border: 1px solid #97d848;
+    }
+
+
+    .formulario textarea:focus {
+        outline: 0;
+        border: 1px solid #97d848;
+    }
