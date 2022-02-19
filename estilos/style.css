@@ -3,9 +3,12 @@
         background-color: rgb(252, 252, 252);
     }
 
-    .cabeza { 
-        display: flex;
+    .cabeza {
+        display: grid;
+        grid-auto-rows: auto;
+
     }
+        
 
 }
 @media screen and (min-width:380px) {
@@ -136,11 +139,7 @@
 
         }
 
-        .cabeza {
-            display: grid;
-            grid-auto-rows: auto;
-
-        }
+        
 
         .musculosaHombrera {
             grid-area: musculosaHombrera;
