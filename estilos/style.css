@@ -1,4 +1,4 @@
-@media only screen and (min-width:1024px) {
+@media screen and (min-width:1024px) {
     body {
         background-color: rgb(252, 252, 252);
     }
@@ -17,7 +17,7 @@
 }
 
 
-@media only screen and (min-width:1024px) {
+@media screen and (min-width:1024px) {
     .productoVideo {
         padding: 10px 10px 10px 10px;
         border: 0px;
@@ -44,7 +44,7 @@
     }
 }
 
-@media only screen and (min-width:1024px) {
+@media screen and (min-width:1024px) {
 
     .donde {
 
@@ -70,7 +70,7 @@
 
 
 
-    @media only screen and (min-width:1024px) {
+    @mediascreen and (min-width:1024px) {
 
         
         
@@ -87,7 +87,7 @@
     }
 
 
-    @media only screen and (min-width:1024px) {
+    @media screen and (min-width:1024px) {
         .lomasVendido {
             display: flex;
             flex-direction: row;
@@ -102,7 +102,7 @@
 
     }
 
-    @media only screen and (min-width:1024px) {
+    @media screen and (min-width:1024px) {
         /*.productos {
             display:grid;
             grid-template-columns: 2fr 2fr;
@@ -186,7 +186,7 @@
         animation-duration: 5s;
     }
 
-    @media only screen and (min-width:1024px) {
+    @media screen and (min-width:1024px) {
         .pieSansa {
             display: flex;
             flex-direction: row;
