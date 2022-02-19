@@ -18,6 +18,15 @@
 
 
 @media screen and (min-width:1024px) {
+
+    .ytube{
+        display:flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+
+
     .productoVideo {
         padding: 10px 10px 10px 10px;
         border: 0px;
