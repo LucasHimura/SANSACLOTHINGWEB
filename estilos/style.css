@@ -159,7 +159,8 @@
             grid-template-rows: 30px 300px 30px 30px 300px 30px 300px 30px 30px 300px 30px ;
             grid-template-columns: 300px 300px 300px ;
             height: 80vh;
-            grid-gap: 10px;
+            grid-row-gap:10px;
+            grid-column-gap:200px;
             grid-template-areas:
                 "tit1 tit1 tit1"
                 "vestido1 vestido2 vestido3"
