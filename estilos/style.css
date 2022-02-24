@@ -161,14 +161,15 @@
             grid-template-columns: 300px 300px 300px ;
             height: 80vh;
             grid-gap: 10px;
+
             grid-template-areas:
-                "tit1 tit1 tit1"
-                "vestido1 vestido2 vestido3"
-                "precio1 precio2 precio3"
-                "tit2 tit2 tit2"
-                "rem1 rem2 rem3"
-                "precio4 precio5 precio6"
-                "rem4 rem4 rem4"
+                "tit1 tit1 tit1 "
+                "vestido1  vestido2 vestido3 "
+                "precio1  precio2 precio3 "
+                "tit2 tit2 tit2 "
+                "rem1  rem2  rem3"
+                "precio4  precio5 precio6 "
+                "rem4 rem4 rem4 "
                 "precio7 precio7 precio7"
                 "tit3 tit3 tit3"
                 "short1 short2 short3"
