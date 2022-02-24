@@ -152,11 +152,12 @@
 /*productos fotos de ropa */
 
     @media screen and (min-width:1024px) {
-        .productos {
+
+       .productos {
            display: grid;
            margin: auto;
            padding: auto;
-            grid-template-rows: 30px 300px 30px 30px 300px 30px 300px 30px 30px 300px 30px ;
+            grid-template-rows: 30px 300px 30px 30px 300px 30px 300px 30px 30px 300px 30px;
             grid-template-columns: 300px 300px 300px ;
             height: 80vh;
             grid-gap: 10px;
@@ -172,6 +173,7 @@
                 "tit3 tit3 tit3"
                 "short1 short2 short3"
                 "precio8 precio9 precio10"
+                
 
 
             
@@ -257,6 +259,9 @@
         }
         .precio10{
             grid-area: precio10;
+        }
+        .pieSansa{
+            grid-area: footer;
         }
 
 
@@ -440,10 +445,6 @@
         outline: 0;
         border: 1px solid #97d848;
     }
-<<<<<<< HEAD
-}
-
-=======
 
 
 
@@ -458,4 +459,6 @@
     }
 
 }
->>>>>>> nombre_grid
+
+
+
