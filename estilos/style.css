@@ -280,7 +280,7 @@
 
     @media screen and (min-width:1024px) {
         .pieSansa {
-            margin-top: 1200px;
+            
             display: flex;
             flex-direction: row;
             flex-wrap: wrap;
@@ -454,3 +454,60 @@
     }
 
 }
+
+
+/* pie de pagina de seccion producto para acomodar el footer luego del grid 
+si quito esta propiedad se rompia el orden pueden comentarlo para ver lo que sucede*/
+@media screen and (min-width:1024px) {
+    .pieSansa2 {
+                
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        background-color: black;
+        width: auto;
+        height: auto;
+        margin-top: 1200px;
+    
+    
+    }
+    
+    
+    .tituloFooter2 {
+        padding: 50px;
+        color: aliceblue;
+        display: auto;
+        align-self: flex-start;
+        animation: bounce;
+        animation-duration: 5s;
+    
+    }
+    
+    .maps2 {
+        align-self: flex-end;
+        margin-left: 600px;
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+    
+    .listaFooter2 {
+        align-self: center;
+        margin-left: 100px;
+    
+    }
+    
+    
+    }
+    
+    
+    @media screen and (min-width:300px) {
+        .pieSansa2 {
+            background-color: black;
+        }
+    
+    
+        .tituloFooter2 {
+            color: aliceblue;
+        }
+    
+    }
