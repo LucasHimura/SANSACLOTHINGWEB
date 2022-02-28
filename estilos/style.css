@@ -53,6 +53,7 @@
         border: 5px;
         margin-left: 550px;
         margin-right: 100px;
+       
 
     }
 
@@ -154,6 +155,7 @@
     @media screen and (min-width:1024px) {
 
        .productos {
+          
            display: grid;
            margin: 50px 10px 10px 50px ;
            padding:50px 10px 10px 50px;
