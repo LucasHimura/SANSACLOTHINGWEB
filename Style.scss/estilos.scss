@@ -1,0 +1,661 @@
+@import "fuentes";
+
+
+
+
+@media screen and (min-width:1024px) {
+
+    body {
+        background-color: rgb(252, 252, 252);
+
+    }
+
+    .cabeza {
+        display: grid;
+        /*grid-auto-rows: auto;*/
+        grid-row: row;
+
+    }
+
+
+}
+
+@media screen and (min-width:380px) {
+
+
+    .logoSansa {
+
+        width: 80px;
+        height: 80px;
+
+        padding: 0px 0px 0px 0px;
+
+        margin: 0px;
+    }
+
+
+}
+
+
+@media screen and (min-width:1024px) {
+
+    .ytube {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+
+
+    .productoVideo {
+        padding: 10px 10px 10px 10px;
+        border: 0px;
+        margin-left: 530px;
+        margin-right: 100px;
+        font-family: 'Lora', serif;
+
+
+    }
+
+    .video {
+        padding: 10px 10px 10px 10px;
+        border: 5px;
+        margin-left: 550px;
+        margin-right: 100px;
+
+    }
+
+
+
+    h2 {
+        padding: 10px, 10px, 10px, 10px;
+        margin-left: 50px;
+        border: 0px, 0px, 0px, 0px;
+        font-family: 'Lora', serif;
+    }
+}
+
+
+
+
+
+
+
+/* index imagenes de productos*/
+
+@media screen and (min-width:1024px) {
+    .lomasVendido {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+
+
+    }
+
+    .musculosaHombrera {
+
+        transition: all 2s;
+
+    }
+
+    .musculosaHombrera:hover {
+        transform: scale(2) translatex(150px);
+
+    }
+
+    .remeraKaty {
+
+        transition: all 2s;
+    }
+
+    .remeraKaty:hover {
+        transform: scale(2) translatex(-100px);
+    }
+
+    .shortMarruecos {
+        grid-area: short1;
+        transition: all 2s;
+    }
+
+    .shortMarruecos:hover {
+        transform: scale(2) translatex(150px);
+    }
+
+    .topIbis {
+        grid-area: rem3;
+        transition: all 2s;
+    }
+
+    .topIbis:hover {
+        transform: scale(2) translatex(-100px);
+    }
+
+
+
+
+}
+
+/*productos fotos de ropa */
+@media screen and (max-width:400px) {
+    .productos {
+        width: 100%;
+        margin-left: 50px;
+
+    }
+
+    .pieSansa2 {
+
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        background-color: black;
+        width: auto;
+        height: auto;
+        margin-top: 1200px;
+        
+    font-family: 'Lora', serif;
+
+
+
+    }
+
+
+    .tituloFooter2 {
+        padding: 50px;
+        color: aliceblue;
+        display: auto;
+        align-self: flex-start;
+        animation: bounce;
+        animation-duration: 5s;
+        
+    font-family: 'Lora', serif;
+
+    }
+
+    .maps2 {
+        align-self: flex-end;
+        margin-left: 600px;
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+
+    .listaFooter2 {
+        align-self: center;
+        margin-left: 100px;
+
+    }
+
+
+}
+
+
+
+
+
+
+@media screen and (min-width:1024px) {
+    .productos {
+        display: grid;
+
+        margin: 50px 10px 10px 50px;
+        padding: 50px 10px 10px 50px;
+        grid-template-rows: 30px 300px 30px 30px 300px 30px 300px 30px 30px 300px 30px;
+        grid-template-columns: 300px 300px 300px;
+        height: 80vh;
+        grid-row-gap: 10px;
+        grid-column-gap: 200px;
+        grid-template-areas:
+            "tit1 tit1 tit1"
+            "vestido1 vestido2 vestido3"
+            "precio1 precio2 precio3"
+            "tit2 tit2 tit2"
+            "rem1 rem2 rem3"
+            "precio4 precio5 precio6"
+            "rem4 rem4 rem4"
+            "precio7 precio7 precio7"
+            "tit3 tit3 tit3"
+            "short1 short2 short3"
+            "precio8 precio9 precio10"
+
+
+
+
+
+
+
+
+
+        ;
+
+
+    }
+
+
+    .tit1 {
+        grid-area: tit1;
+    }
+
+    .vestidoLali {
+        grid-area: vestido1;
+    }
+
+    .precio1 {
+        grid-area: precio1;
+    }
+
+    .vestidoMandy {
+        grid-area: vestido2;
+    }
+
+    .precio2 {
+        grid-area: precio2;
+    }
+
+    .vestidoSara {
+        grid-area: vestido3;
+    }
+
+    .precio3 {
+        grid-area: precio3;
+    }
+
+    .tit2 {
+        grid-area: tit2;
+    }
+
+    .musHombreras {
+        grid-area: rem1;
+    }
+
+    .precio4 {
+        grid-area: precio4;
+    }
+
+    .remBatik {
+        grid-area: rem2;
+    }
+
+    .precio5 {
+        grid-area: precio5;
+    }
+
+    .remKaty {
+        grid-area: rem3;
+    }
+
+    .precio6 {
+        grid-area: precio6;
+    }
+
+    .tIbis {
+        grid-area: rem4;
+    }
+
+    .precio7 {
+        grid-area: precio7;
+    }
+
+    .tit3 {
+        grid-area: tit3;
+    }
+
+    .sMarruecos {
+        grid-area: short1;
+    }
+
+    .precio8 {
+        grid-area: precio8;
+    }
+
+    .shortRustico {
+        grid-area: short2;
+    }
+
+    .precio9 {
+        grid-area: precio9;
+    }
+
+    .shortTokio {
+        grid-area: short3;
+    }
+
+    .precio10 {
+        grid-area: precio10;
+    }
+
+
+
+
+
+
+}
+
+
+
+
+
+.frase {
+
+    margin: 50px 10px 10px 50px;
+    padding: 50px 10px 10px 50px;
+
+    animation: bounce;
+    animation-duration: 5s;
+    font-family: 'Lora', serif;
+}
+
+.frase2{
+    margin: 50px 10px 10px 50px;
+    padding: 50px 10px 10px 50px;
+
+    font-family: 'Lora', serif;
+
+}
+
+@media screen and (min-width:1024px) {
+    .pieSansa {
+
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        background-color: black;
+        width: auto;
+        height: auto;
+
+
+    }
+
+
+    .tituloFooter {
+        padding: 50px;
+        color: aliceblue;
+        display: auto;
+        align-self: flex-start;
+        animation: bounce;
+        animation-duration: 5s;
+        
+    font-family: 'Lora', serif;
+
+    }
+
+    .maps {
+        align-self: flex-end;
+        margin-left: 600px;
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+
+    .listaFooter {
+        align-self: center;
+        margin-left: 100px;
+        
+    font-family: 'Lora', serif;
+
+    }
+
+
+}
+
+/*seccion contacto*/
+
+
+@media screen and (min-width:1024px) {
+
+
+
+    .donde {
+        margin: 10px 10px 10px 50px;
+        padding: 10px 10px 10px 50px;
+
+
+    }
+
+    .dondeDiv {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+
+
+
+    }
+
+
+
+    .contact_form {
+        width: 460px;
+        height: auto;
+        margin: 80px auto;
+        border-radius: 10px;
+        padding-top: 30px;
+        padding-bottom: 20px;
+        background-color: #fbfbfb;
+        padding-left: 30px;
+    }
+
+
+    input {
+        background-color: #fbfbfb;
+        width: 408px;
+        height: 40px;
+        border-radius: 5px;
+        border-style: solid;
+        border-width: 1px;
+        border-color: black;
+        margin-top: 10px;
+        padding-left: 10px;
+        margin-bottom: 20px;
+    }
+
+
+    textarea {
+        background-color: #fbfbfb;
+        width: 405px;
+        height: 150px;
+        border-radius: 5px;
+        border-style: solid;
+        border-width: 1px;
+        border-color: black;
+        margin-top: 10px;
+        padding-left: 10px;
+        margin-bottom: 20px;
+        padding-top: 15px;
+    }
+
+
+    label {
+        display: block;
+        float: center;
+    }
+
+
+    button {
+        height: 45px;
+        padding-left: 5px;
+        padding-right: 5px;
+        margin-bottom: 20px;
+        margin-top: 10px;
+        text-transform: uppercase;
+        background-color: black;
+        border-color: black;
+        border-style: solid;
+        border-radius: 10px;
+        width: 420px;
+        cursor: pointer;
+    }
+
+
+    button p {
+        color: #fff;
+    }
+
+
+    span {
+        color: black;
+        
+    font-family: 'Lora', serif;
+    }
+
+
+    .aviso {
+        font-size: 13px;
+        color: black;
+        
+    font-family: 'Lora', serif;
+    }
+
+
+    h1 {
+        font-size: 39px;
+        text-align: letf;
+        padding-bottom: 20px;
+        color: black;
+        
+    font-family: 'Lora', serif;
+    }
+
+
+    h3 {
+        font-size: 16px;
+        padding-bottom: 30px;
+        color: black;
+        
+    font-family: 'Lora', serif;
+    }
+
+
+    p {
+        font-size: 14px;
+        color: #0e0e0e;
+        
+    font-family: 'Lora', serif;
+    }
+
+
+    ::-webkit-input-placeholder {
+        color: #a8a8a8;
+    }
+
+
+    ::-webkit-textarea-placeholder {
+        color: #a8a8a8;
+    }
+
+
+    .formulario input:focus {
+        outline: 0;
+        border: 1px solid #97d848;
+    }
+
+
+    .formulario textarea:focus {
+        outline: 0;
+        border: 1px solid #97d848;
+    }
+
+
+}
+
+@media screen and (max-width:400px) {
+    .pieSansa {
+        background-color: black;
+    }
+
+
+    .tituloFooter {
+        color: aliceblue;
+        
+    font-family: 'Lora', serif;
+    }
+
+}
+
+
+/* pie de pagina de seccion producto para acomodar el footer luego del grid 
+si quito esta propiedad se rompia el orden pueden comentarlo para ver lo que sucede*/
+@media screen and (min-width:1024px) {
+    .pieSansa2 {
+
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        background-color: black;
+        width: auto;
+        height: auto;
+        margin-top: 1200px;
+
+
+
+    }
+
+
+    .tituloFooter2 {
+        padding: 50px;
+        color: aliceblue;
+        display: auto;
+        align-self: flex-start;
+        animation: bounce;
+        animation-duration: 5s;
+        
+    font-family: 'Lora', serif;
+
+    }
+
+    .maps2 {
+        align-self: flex-end;
+        margin-left: 600px;
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+
+    .listaFooter2 {
+        align-self: center;
+        margin-left: 100px;
+        
+    font-family: 'Lora', serif;
+
+    }
+
+
+}
+
+
+@media screen and (min-width:300px) {
+    .pieSansa2 {
+        background-color: black;
+    }
+
+
+    .tituloFooter2 {
+        color: aliceblue;
+    }
+
+}
+
+
+/*seccion nosotros, responsive de texto e iimagen*/
+
+
+
+
+.quienSos {
+    margin: 10px 10px 10px 10px;
+    padding: 10px 10px 10px 10px;
+
+}
+
+.textoQuien {
+    margin: 10px 10px 10px 10px;
+    padding: 10px 10px 10px 10px;
+    
+    font-family: 'Lora', serif;
+
+}
+
+.showRoom {
+    margin: 10px 10px 10px 10px;
+    padding: 10px 10px 10px 10px;
+    width: 100%;
+    min-width: 380px;
+
+}
