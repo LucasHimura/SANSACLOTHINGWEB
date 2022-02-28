@@ -66,30 +66,7 @@
     }
 }
 
-/*contactos*/
-@media screen and (min-width:1024px) {
 
-    .donde {
-
-        padding: auto;
-        margin-bottom: 100px;
-        margin-left: 85px;
-
-    }
-
-    .insta {
-        padding: auto;
-        margin-bottom: 100px;
-        margin-left: 85px;
-
-    }
-
-    .wapp {
-
-        padding: auto;
-        margin-bottom: 100px;
-        margin-left: 100px;
-    }
 
 
 
@@ -150,10 +127,62 @@
 
     }
 /*productos fotos de ropa */
+@media screen and (max-width:400px) {
+    .productos {
+        width: 100%;
+        margin-left: 50px;
+
+    }
+    .pieSansa2 {
+                
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        background-color: black;
+        width: auto;
+        height: auto;
+        margin-top: 1200px;
+        font-family: ;
+    
+    
+    }
+    
+    
+    .tituloFooter2 {
+        padding: 50px;
+        color: aliceblue;
+        display: auto;
+        align-self: flex-start;
+        animation: bounce;
+        animation-duration: 5s;
+    
+    }
+    
+    .maps2 {
+        align-self: flex-end;
+        margin-left: 600px;
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+    
+    .listaFooter2 {
+        align-self: center;
+        margin-left: 100px;
+    
+    }
+    
+    
+    }
+    
+    
+  
+
+
 
     @media screen and (min-width:1024px) {
         .productos {
            display: grid;
+           
            margin: 50px 10px 10px 50px ;
            padding:50px 10px 10px 50px;
             grid-template-rows: 30px 300px 30px 30px 300px 30px 300px 30px 30px 300px 30px ;
@@ -269,7 +298,7 @@
 
 
 
-    }
+    
 
     .frase {
         
@@ -320,7 +349,30 @@
 
     }
 
+    /*seccion contacto*/
 
+
+@media screen and (min-width:1024px) {
+
+ 
+    
+    .donde {
+        margin: 10px 10px 10px 50px ;
+        padding:10px 10px 10px 50px;
+
+       
+    }
+
+    .dondeDiv{
+        display: flex;     
+        flex-direction: row; 
+        justify-content: center;
+   
+  
+        
+    }
+
+    
 
     .contact_form {
         width: 460px;
@@ -444,8 +496,8 @@
     }
 
 
-
-@media screen and (min-width:300px) {
+}
+@media screen and (max-width:400px) {
     .pieSansa {
         background-color: black;
     }
@@ -470,6 +522,7 @@ si quito esta propiedad se rompia el orden pueden comentarlo para ver lo que suc
         width: auto;
         height: auto;
         margin-top: 1200px;
+        font-family: ;
     
     
     }
@@ -540,7 +593,7 @@ si quito esta propiedad se rompia el orden pueden comentarlo para ver lo que suc
 
     }
 
-
+ 
 
 
 
